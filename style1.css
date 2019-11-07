@@ -1,0 +1,96 @@
+.left {
+    text-align: left;
+    font-size: 20px;
+
+  }
+ div.absoulute {
+    position: absolute;
+    top: 10;
+    left: 10;
+    width: 300px;
+    color: white;
+    background: #4aaaa5;
+    font-size: 1.5em;
+    padding: 28px;
+    
+ }
+  
+
+ a {
+    color: gray;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+.nav {
+    background-color: white;
+    list-style-type: none;
+    text-align: right;
+    padding: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    
+}
+
+body {
+    background: #e0e2e4;
+
+}
+
+
+
+h3 {
+    margin-left: 100px;
+
+}
+
+* {box-sizing: border-box;}
+
+
+form {
+  
+
+}
+
+input[type=text], select, textarea {
+  width:100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  font-size: 18px;
+  
+}
+
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+button {
+  background-color:#4aaaa5;
+  color: white;
+  font-size: 18px;
+
+}
+
+.container {
+  
+  background-color:white;
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 18px;
+
+}
