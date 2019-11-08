@@ -1,8 +1,21 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  padding: 80px;
+  background: #e0e2e4;
+  margin: auto;
+  width: 960px;
+}
+
+
+
 .left {
     text-align: left;
     font-size: 20px;
-
+   
   }
+
+
  div.absoulute {
     position: absolute;
     top: 10;
@@ -12,6 +25,8 @@
     background: #4aaaa5;
     font-size: 1.5em;
     padding: 25px;
+    border-bottom-color: gray;
+
  }
   
 a {
@@ -40,22 +55,18 @@ h2 {
 
   span.c {
     display: block;
-    width: 960px;
     height: 600px;
     padding: 20px;
-    border: 1px solid black;    
+    border:#cccccc;    
     background-color:white; 
+    margin-right: 20px;
   }
 
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    margin: 30%;
-    padding: 80px;
-    background: #e0e2e4;
-    float: left;
-    margin: 20px;
-    width: 960px;
+
+footer {
+  border-bottom: 30px solid gray;
+  border-top: 8px solid #00b3b3;
+  
 }
 
 
