@@ -1,10 +1,11 @@
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 18px;
+  font-size: 20px;
   padding: 80px;
   background: #e0e2e4;
   margin: auto;
   width: 960px;
+
 }
 
 
@@ -24,8 +25,9 @@ body {
     color: white;
     background: #4aaaa5;
     font-size: 1.5em;
-    padding: 25px;
+    padding: 26px;
     border-bottom-color: gray;
+ 
 
  }
   
@@ -45,6 +47,7 @@ a {
     text-align: right;
     margin: 20px;
     padding: 0;
+    width: 940px;
 }
 
 
@@ -55,18 +58,24 @@ h2 {
 
   span.c {
     display: block;
-    height: 600px;
+    height: 400px;
     padding: 20px;
     border:#cccccc;    
-    background-color:white; 
-    margin-right: 20px;
+    background-color:white;
+    
   }
 
+
+img {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
 
 footer {
   border-bottom: 30px solid gray;
   border-top: 8px solid #00b3b3;
-  
+
 }
 
 

@@ -1,7 +1,10 @@
 body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   background: #e0e2e4;
   width: 960px;
   margin: auto;
+  padding:80px;
+  font-size: 20px;
 
 }
 
@@ -19,7 +22,7 @@ body {
     color: white;
     background: #4aaaa5;
     font-size: 1.5em;
-    padding: 28px;
+    padding: 25px;
     text-align: center;
     
  }
@@ -34,7 +37,7 @@ body {
     font-size: 20px;
     padding: 30px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 10px;
 
   }
 .nav {
@@ -42,41 +45,46 @@ body {
     list-style-type: none;
     text-align: right;
     padding: 0;
-    margin-left: 50px;
-    margin-right: 50px;
+   
     
 }
+
+
 
 h3 {
     color: #4aaaa5;
     font-size: 24px;
+    margin-left: 20px;
 
-   
+}
+
+.txtb {
+  margin-left: 5px;
+
+
 }
 
 input[type=text], select, textarea {
-  width:960px;
-  padding: 12px;
+  width:940px;
+  padding: 10px;
   border: 1px solid #ccc;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   font-size: 16px;
+  margin-left: 10px;
+
+  
+
 
 }
 
-input[type=submit] {
-  background-color: #4aaaa5;
-  color: white;
-  padding: 0;
-  border: none;
-  cursor: pointer;
-}
 
 button {
   background-color:#4aaaa5;
   color: white;
   font-size: 18px;
+  margin-left: 20px;
 
 }
 
