@@ -1,81 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>CSS stylsheet with relative paths</title>
-<link rel="stylesheet" type="text/css" href="style1.css">
+<!doctype html>
+<html lang="en-us">
 
-    <title>About Me</title>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="style2.css">
 </head>
 
 <body>
 
-<Header>
-
-
-<div class="absoulute">
- <strong>Angela DePasquale</strong>
-
-</div>
-
-<!--this is the navagation bar-->
-<div class="left">
-  
-  <ul class="nav">
-
-  
-    <li><a href="./index.html">About</a></li>
-    <li><a href="./portfolio.html">Portfolio</a></li>
-    <li><a href="./contact.html">contact</a></li>
-</ul>
-
-</div>
-    
-</Header>
-
-<!--This is the Contact Form-->
-
-<span>
-
-    <div class="contact-form">
-
-        <h3>Contact</h3>
-
-    <div class="txtb">
-        <label>Name:</label>
-        <input type="text" name="" value="" placeholder="Enter Your Name">
-
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Angela DePasquale</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
+  </header>
 
- 
-    <div class="txtb">
-    <label>Email:</label>
-    <input type="text" name="" value="" placeholder="Enter Your Email">
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-</div>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
+    </section>
 
-<div class="txtb">
-<label>Message:</label>
-<textarea name="name" rows="8" cols="80"></textarea> 
+  </div>
 
-</div> 
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
+</body>
 
-
-<button>Submit</button>
-        <a href="#" class="button"></a>
-     
-
-    </span>
-
-  </body>
-
-
-    <footer>
-
-
-    </footer>
-
- 
+</html>
