@@ -14,6 +14,7 @@ body {
   
   /* general */
   
+  
   .container {
     height: 100%;
     width: 100%;
@@ -57,7 +58,7 @@ body {
   /* header */
   
   #masthead {
-    position: relative;
+    position: fixed;
     z-index: 99;
     width: 100%;
     margin: 0 0 30px;
@@ -162,4 +163,19 @@ body {
     background: #3399ff;
     border: 0 none;
   }
-  
+  /* main */
+
+#main-container {
+  padding-top: 130px;
+  min-height: calc(100vh - 70px);
+}
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
